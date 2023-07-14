@@ -1,6 +1,6 @@
 # SyncInterns_Task1_MachineLearningInterns
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-ChatBot that can Predict Diseases
+ChatBot that can Predict Disease
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 I build a Simple chatbot with the topic of health care. With the help of user-provided symptoms, this bot can identify several diseases. The bot will also provide advice on how to prevent this disease. Additionally, the bot asks the user if they want to consult with a doctor; if so, the user must provide their mail address so that the bot can send them an appointment link.
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
