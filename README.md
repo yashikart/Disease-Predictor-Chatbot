@@ -1,0 +1,2 @@
+# SyncInterns_MachineLearningInterns_Task1_Chatbot
+I built a chatbot with a health care topic. This bot can identify diseases using symptoms that users provide. Additionally, the bot will offer advice on how to prevent this disease. Also Bot ask the User if they want to consult with Doctor, if 'Yes' then User have to provide Mail Address, so that Bot can send Appointment Link to their mail address
