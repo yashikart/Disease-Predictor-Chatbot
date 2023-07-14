@@ -1,2 +1,40 @@
-# SyncInterns_MachineLearningInterns_Task1_Chatbot
-I built a chatbot with a health care topic. This bot can identify diseases using symptoms that users provide. Additionally, the bot will offer advice on how to prevent this disease. Also Bot ask the User if they want to consult with Doctor, if 'Yes' then User have to provide Mail Address, so that Bot can send Appointment Link to their mail address
+# SyncInterns_Task1_MachineLearningInterns
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ChatBot that can Predict Diseases
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+I build a Simple chatbot with the topic of health care. With the help of user-provided symptoms, this bot can identify several diseases. The bot will also provide advice on how to prevent this disease. Additionally, the bot asks the user if they want to consult with a doctor; if so, the user must provide their mail address so that the bot can send them an appointment link.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+*Software Used :  Anaconda, Jupyter, DataSpell
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+*Web Framework : Flask
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+*Programming Language : Python
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+*Libraries : Pandas, Numpy, nltk, scikit-learn, matplotlib, seaborn
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+*Dataset  : Kaggle (Traning.csv) & (Testing.csv)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+*Algorithm : Gaussian Naïve Bayes, Random Forest Classification, Decision Tree Classifier 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The following are some basic intends I've added to the chatbots:
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    text = ['Yes','YES','yes']
+ -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    text1 = ['prevent','Prevent','precaution','Precaution']
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    text3 =['Yes I want to talk with Doctor','I want to consult with Doctor','yes i want to talk with Doctor','I Want To Consult With Doctor']
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    text4 = ['@']
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    text5 = ['Bye','Thankyou','bye bye','bye','thankyou']
+ ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+    for Disease Description Intents - I have used Kaggel Dataset (symptom_Description.csv)
+ --------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+    for Disease Precaution Intents - I have used Kaggel Dataset (symptom_precaution.csv)
+ -----------------------------------------------------------------------------------------------------------------------------------------------------------------------****Note***
+ 
+    Symptoms' starting letters must be written in uppercase letters. 
+     for eg: Loss Of Apetite, Cough, High Fever, Abdominal Pain.
+ -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+     Symptoms words should be entered exactly as they are shown in the Traning.csv columns.
+  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
